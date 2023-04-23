@@ -157,6 +157,7 @@ body {
   width: 90%;
   margin: auto;
   height: 335px;
+  margin-bottom: 30px;
 }
 .phonerow2 h4{
   text-align: left;
@@ -197,5 +198,34 @@ body {
   cursor: pointer;
 }
 .phoneimgbox:hover{
+  scale: 1.1;
+}
+.phonerow3{
+  margin-top: 30px;
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  height: 260px;
+}
+
+.phonerow3 img{
+  width: 165px;
+  height: 165px;
+  margin-top: 25px;
+}
+.phonerow3txt1{
+  color: #313133;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 8px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+  'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.phoneimgbox1{
+  border: 0.1px solid white;
+  cursor: pointer;
+}
+.phoneimgbox1:hover{
   scale: 1.1;
 }
