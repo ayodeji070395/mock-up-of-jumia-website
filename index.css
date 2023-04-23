@@ -3,6 +3,7 @@
 }
 body {
     height: 2000px;
+    color: #f1f1f2;
 }
 .flex {
     display: flex;
@@ -126,4 +127,16 @@ body {
 }
 .ayo1_col3{
     padding-top: 50px;
+}
+.phonetxt1{
+  width: 90%;
+  margin: auto;
+  text-align: left;
+  padding-top: 180px;
+  font-size: 24px;
+}
+.hoome{
+  color: black;
+  font-size: 24px;
+  display: inline;
 }
