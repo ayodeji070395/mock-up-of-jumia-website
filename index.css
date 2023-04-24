@@ -474,3 +474,21 @@ body {
 .pooon{
   margin-left: 10px;
 }
+.footer{
+  background-color: #535357;
+}
+.footer-sec1{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.phonediv{
+  margin-top: 30px;
+}
+.phondivs{
+  margin-bottom: 160px;
+}
+.footer-sec1 h5{
+  color: white;
+}
