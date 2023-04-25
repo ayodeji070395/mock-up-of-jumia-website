@@ -1,6 +1,12 @@
 * {
-    margin: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F1F1F2;
+    font-family:'Roboto', 'Blinker', sans-serif; 
+    color: #202124;
 }
+
 body {
     height: 2000px;
 }
@@ -16,6 +22,7 @@ body {
     width: 100%;
     position: fixed;
     box-shadow: 0px 0px 5px slategray;
+    z-index: 1;
   }
   .nav1{
     width: 100%;
@@ -28,7 +35,7 @@ body {
   }
   .nav2{
     width: 100%;
-    height: 38px;
+    height: 38%;
     background-color: #f1f1f2;
   }
   .navtxtlogo{
@@ -126,4 +133,239 @@ body {
 }
 .ayo1_col3{
     padding-top: 50px;
+}
+
+
+.fashion-page-container{
+  padding-top: 250px;
+  width: 90%;
+  margin: auto;
+  height: 500px;
+}
+
+.fashion-page-container-header{
+  padding: 8px 16px; 
+  text-align: center; 
+  border-radius: 4px; 
+  background-color: white; 
+  width: 100%; 
+  margin-bottom: -8px; 
+  font-weight: 500; 
+  font-size: 1.4em; 
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%);
+}
+.fashion-page-container-section-1{
+  padding: 0px 16px; 
+  text-align: center; 
+  border-radius: 4px; 
+  background-color: white; 
+  height: 166px;
+  width: 100%; 
+  margin: 25px 0; 
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fashion-page-container-section-2{
+  border-radius: 4px; 
+  background-color: white; 
+  height: 320px;
+  width: 100%; 
+  margin: 25px 0; 
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.section-item{
+  width: 125px;
+  height:90%;
+  background-color: white;
+  border: 1px solid white;
+  margin: auto;
+}
+
+.item{
+  height: 85%;
+  background-color: white;
+}
+
+.item img{
+  height: 100%;
+  border-radius: 30px;
+}
+
+.item:hover{
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%);
+  scale: 1.03;
+  transition: all ease-in-out 150ms;
+  cursor: pointer;
+}
+
+.section-item p{
+  font-size: 0.9rem;
+  background-color: white;
+  font-weight: 400;
+}
+
+.section-2-header{
+  display: flex;
+  background-color: #aadef1;
+  width: 100%;
+  height: 15%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 5px 5px  0px 0px; 
+}
+
+h1.fashion{
+  background-color: transparent;
+  font-weight: 400;
+}
+
+p.fashion{
+  background-color: transparent;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+
+.section-2-content{
+  height: 85%;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.section-2-items{
+  width: 192px;
+  background-color: #fff;
+  position: relative;
+  height: 95%;
+}
+
+.section-2-items:hover{
+  box-shadow: 0 3px 9px 0 rgb(0 0 0 / 10%);
+  scale: 1.01;
+  transition: all ease-out 150ms;
+  cursor: pointer;
+}
+
+.section-2-img{
+  height: 75%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.discont{
+  background-color: #fef3e9;
+  color:#f58b1e;
+  display: inline-block;
+  text-align: right;
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding: 5px;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+.price p:first-child{
+  overflow: hidden;
+  background-color: #fff;
+  font-size: 1rem;
+  word-wrap: normal;
+  font-weight: 400;
+  padding-left: 20px;
+}
+
+.price p:nth-child(2){
+  overflow: hidden;
+  background-color: #fff;
+  font-size: 1rem;
+  word-wrap: normal;
+  font-weight: 500;
+  padding-left: 20px;
+}
+
+.price p:last-child{
+  overflow: hidden;
+  background-color: #fff;
+  font-size: 0.9rem;
+  text-decoration: line-through;
+  font-weight: 400;
+  padding-left: 20px;
+  color: #333;
+}
+
+.section-2-img img{
+  width: 95%;
+}
+
+
+.fashion-page-container-section-3{
+  border-radius: 4px; 
+  background-color: white; 
+  height: 280px;
+  width: 100%; 
+  margin: 25px 0; 
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%);
+}
+
+.section-3-items{
+  width: 99%;
+  display: flex;
+  margin: auto;
+  background-color: white;
+}
+
+.sec-3-pics{
+  width: 49%;
+  margin: 10px auto 0px;
+  background-color: white;
+}
+
+.sec-3-pics:hover{
+  box-shadow: 0 3px 9px 0 rgb(0 0 0 / 10%);
+  scale: 1.01;
+  transition: all ease-out 150ms;
+  cursor: pointer;
+}
+
+.sec-3-pics img{
+  width: 100%;
+  border-radius: 3px;
+}
+
+
+
+.section-4-items{
+  width: 99%;
+  display: flex;
+  margin: auto;
+  background-color: white;
+  align-items: center;
+}
+
+.sec-4-pics{
+  width: 99%;
+  margin: 8px auto 0;
+  background-color: white;
+}
+
+.sec-4-pics:hover{
+  box-shadow: 0 3px 9px 0 rgb(0 0 0 / 10%);
+  scale: 1.01;
+  transition: all ease-out 150ms;
+  cursor: pointer;
+}
+
+.sec-4-pics img{
+  width: 100%;
+  border-radius: 3px;
 }
