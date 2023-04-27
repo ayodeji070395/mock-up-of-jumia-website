@@ -1,9 +1,15 @@
 * {
-    margin: auto;
+    margin: 0;
+    padding: 0;
 }
 body {
     height: 2000px;
     background-color: #f1f1f2;
+}
+.body {
+    background-color: whitesmoke;
+    width: 100%;
+  
 }
 .flex {
     display: flex;
@@ -13,7 +19,7 @@ body {
     justify-content: space-between;
 }
 .navigation{
-    height: 150px;
+    height: 80px;
     width: 100%;
     position: fixed;
     box-shadow: 0px 0px 5px slategray;
@@ -22,6 +28,7 @@ body {
     width: 100%;
     height: 40px;
   }
+
   .nav1 img{
     height: 40px;
     width: 100%;
@@ -33,22 +40,23 @@ body {
     background-color: #f1f1f2;
   }
   .navtxtlogo{
-    width: 20px;
-    margin-right: 6px;
+    width: 100px;
+    margin-right: 4px;
   }
   .navtxtlogo img{
-    width: 20px;
+    width: 50px;
+    height: 30px;
   }
   
   .nav-txt{
     margin-left: 80px;
   }
   .logodiv{
-    width: 40px;
+    width: 50px;
     
   }
   .logodiv img{
-    width: 100%;
+    width: 90%;
     /* background-color: #f1f1f2; */
   }
   .nav-txt p{
@@ -78,6 +86,7 @@ body {
   .nav33{
     width: 90%;
     margin: auto;
+    
   }
   .navlogo{
     width: 120px;
@@ -90,6 +99,7 @@ body {
   .navinput{
     margin-left: 80px;
     margin-bottom: 60px;
+    height: 28px;
   }
   .input{
     width: 36%;
@@ -99,6 +109,8 @@ body {
     padding-bottom: 7px;
     padding-left: 20px;
     padding-right: 350px;
+    border-radius: 4px;
+    height: 20px;
   }
   .nav-btn{
     background-color: #f58b1e;
@@ -118,13 +130,30 @@ body {
   ::placeholder{
     width: 6500px;
   }
-.ayo1 {
-    background-color: pink;
+  .ayo1 {
+    padding-top: 120px;
+    width: 95%;
+    margin: auto;
+    height: auto;
+    margin-bottom: 15px;
+    
+  }
+  .ayo1_col1 { 
+  background-color: white;
+  width: 20%;
+  height: 370px;
+  border-radius: 4px;
+  margin-right: 15px;
+  }
+  .ayo1-col2  {
+    width: 55%;
+    margin-right: 15px;
+  }
+  .ayo1-col2 img{
     width: 100%;
-    height: 600px;
-    margin-left: 40px;
-    padding-left: 30px;   
-}
+    height: 370px;
+    border-radius: 4px;
+  }
 .ayo1_col3{
     padding-top: 50px;
 }
@@ -531,3 +560,276 @@ body {
   margin-left: 115px;
   /* margin-right: 30px; */
 }
+ 
+  .ayo1_col3 img{
+    border-radius: 4px;
+  }
+  .ayo1_col1 a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 100px;
+    width: 20;
+    height: 20;
+  }
+  .ay {
+   margin-top: 12px;
+  }
+  .ayo-2 {
+width: 90%;
+/* margin: auto; */
+margin-left: 35px;
+/* margin-right: 10px; */
+background-color: white;
+justify-content: center;
+height: 170px;
+padding-bottom: 15px;
+margin-bottom: 15px;
+  }
+  .col{
+    /* box-shadow: 0.1px 0.1px 0.1px 0.1px; */
+    border: 0.1px solid white;
+  }
+  .col:hover{
+    scale: 1.1;
+  }
+  .ayo-2 img{
+    width: 125px;
+    height: 125px;
+    margin-top: 10px;
+    margin-left: 7px;
+  }
+  .ayo-2 p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 5px;
+    text-align: center;
+  }
+  .ayo-3 {
+    width: 90%;
+    /* margin: auto; */
+    background-color: white;
+    margin-left: 35px;
+    margin-bottom: 15px;
+  }
+  .ayo-3 h2{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .ayo-3 img{
+    width: 180px;
+    height: 185px;
+    margin-top: 10px;
+    margin-left: 7px;
+    border-radius: 4px;
+  }
+  .ayo-4 {
+    width: 90%;
+    /* margin: auto; */
+    margin-left: 35px;
+    /* margin-right: 10px; */
+    background-color: white;
+    justify-content: center;
+    height: 300px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+      }
+      .ayo4_2 img{
+        width: 180px;
+        height: 180px;
+        margin-top: 10px;
+        margin-left: 7px;
+        border-radius: 4px;
+      }
+      .ayo4_1 {
+        background-color: red;
+        height: 50px;
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+      }
+      .ayo4_1 h2{
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+         'Open Sans', 'Helvetica Neue', sans-serif ;
+      }
+      .ayo_5{
+        width: 90%;
+        background-color: white;
+        margin-left: 35px;
+        margin-bottom: 15px;
+      }
+      .ayotxt-5{
+        background-color:  #fee2cc;
+        height: 50px;
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+      }
+      .ayo_5 h2{
+        font-size: 20px;
+        font-weight: 500;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+         'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      .ayo_5 img{
+        width: 180px;
+        height: 180px;
+        margin-top: 10px;
+        margin-left: 7px;
+        border-radius: 4px;
+      }
+      
+      .ayo_6{
+        width: 90%;
+        background-color: white;
+        margin-left: 35px;
+        margin-bottom: 15px;
+      }
+      .ayo_6 h2{
+        font-size: 20px;
+        font-weight: 500;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+         'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      .ayo_6 img{
+        width: 180px;
+        height: 180px;
+        margin-top: 10px;
+        margin-left: 7px;
+        border-radius: 4px;
+      }
+      .ayotxt-4{
+        background-color: #b5de93;
+        height: 50px;
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+      }
+      .ayo_7{
+        width: 90%;
+        background-color: white;
+        margin-left: 35px;
+        margin-bottom: 15px;
+      }
+      .ayo_7 h3{
+        font-size: 20px;
+        font-weight: 500;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      .ayo_7 img{
+        width: 180px;
+        height: 180px;
+        margin-top: 10px;
+        margin-left: 7px;
+        border-radius: 4px;
+      }
+      .ayo-last{
+        background-color: white;
+        width: 90%;
+        margin-left: 35px;
+      }
+      .ayo_last h4, p{
+        margin-left: 10px;
+      }
+      .ayo-last h4{
+        font-family: Arial, Helvetica, sans-serif;
+         font-weight: 700;
+      }
+      .ayolast_1 {
+        margin-left: 40px;
+        margin-top: 20px;
+      }
+      .footer {
+        background-color: black;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 70px;
+        height: 180px;
+
+      }
+      .foot_img{
+        background-color: black;
+        width: 40%;
+        
+      }
+      .foot_1 {
+        margin-top: 10px;
+      }
+      .foot_2{
+        color: white;
+        margin-top: 10px;
+      }
+      /* .foot_4_1{
+        width: 10%;
+        height: 10px;
+      } */
+      .foot_4_2{
+        color: white;
+        margin-top: 30px;
+        margin-left: 15px;
+        margin-bottom: 45px;
+      }
+      .foot_4_3{
+        width: 20%;
+        margin-top: 30px;
+      }
+      .footer2{
+        background-color: #535357;
+        height: 500px;
+        width: 100%;
+        margin-left: 0px;
+        
+      }
+      .foot_txt1 {
+        margin-top: 2px;
+        margin-left: 15px;
+        padding-top: 0px;
+        margin-right: 30px;
+        color: white;
+        margin-bottom: 220px;
+      }
+      .foot_txt1_1{
+        margin-top: 15px;
+      }
+      .foot_txt1 h4, p{
+        margin-bottom: 6px;
+      }
+      .foot_txt2_2{
+        margin-top: 15px;
+        margin-bottom: 220px;
+      }
+      .foot_txt2{
+        color: white;
+        margin-top: 10px;
+        margin-right: 30px ;
+      }
+      .foot_txt2_1{
+        margin-top: 15px;
+      }
+      .foot_txt3{
+        color: white;
+        margin-right: 30px;
+        margin-top: 5px;
+      }
+      .foot_txt3_1{
+        margin-top: 15px;
+      }
+      .foot_text3_2{
+        margin-top: 15px;
+        margin-bottom: 220px;
+      }
+      .foot_txt4{
+        color: white;
+        margin-left: 20px;
+      }
+      .footer_txt4_1{
+        margin-top: 15px;
+      }
+      
