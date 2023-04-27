@@ -218,6 +218,11 @@ body {
   font-size: 20px;
   padding-left: 8px;
 }
+.phonerow2imgs{
+  width: 95%;
+  margin: auto;
+  /* margin-left: 40px; */
+}
 .phonerow2txt2{
   font-size: 12px;
   padding-left: 8px;
@@ -240,7 +245,12 @@ body {
   margin-bottom: 30px;
   border-radius: 4px;
 }
-
+.phonerow3imgs{
+  /* width: 80%;
+  margin: auto; */
+  margin-right: 40px;
+  margin-left: 100px;
+}
 .phonerow3 img{
   width: 165px;
   height: 165px;
@@ -279,6 +289,10 @@ body {
   'Open Sans', 'Helvetica Neue', sans-serif;
   margin-left: 16px;
   padding-top: 10px;
+}
+.phonerow4imgs{
+  width: 95%;
+  margin: auto;
 }
 .phonerow4 img{
   width: 185px;
@@ -329,6 +343,10 @@ body {
   'Open Sans', 'Helvetica Neue', sans-serif;
   padding-top: 10px;
 }
+.phonerow5imgs{
+  width: 95%;
+  margin: auto;
+}
 .phonerow5 img{
   width: 190px;
   height: 97px;
@@ -369,6 +387,10 @@ body {
   text-decoration: none;
   margin-right: 125px;
   /* margin-left: 140px; */
+}
+.phonerow6imgs{
+  width: 95%;
+  margin: auto;
 }
 .phonerow6 img{
   width: 185px;
@@ -505,22 +527,28 @@ body {
 .pooon{
   margin-left: 10px;
 }
-.footer{
+.phonefooter{
   background-color: #535357;
+  /* width: 90%;
+  margin: auto; */
 }
-.footer-sec1{
-  width: 90%;
+.phonefooter-sec1{
+  width: 100%;
   margin: auto;
   display: flex;
   justify-content: center;
+  column-gap: 25px;
 }
 .phonediv{
   margin-top: 30px;
+  margin-right: 70px;
 }
 .phondivs{
-  margin-bottom: 160px;
+  margin-bottom: 130px;
+  margin-top: 30px;
+  margin-right: 30px;
 }
-.footer-sec1 h5{
+.phonefooter-sec1 h5{
   color: white;
   font-size: 16px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
@@ -530,10 +558,11 @@ body {
 .logod{
   mix-blend-mode: multiply;
 }
-.footer-sec2{
+.phonefooter-sec2{
   width: 100%;
   margin: auto;
   display: flex;
+  margin-top: 30px;
   /* margin-right: 60px; */
   /* justify-content: left; */
 }
@@ -559,6 +588,9 @@ body {
 .phonediv2{
   margin-left: 115px;
   /* margin-right: 30px; */
+}
+.phonediv3{
+  margin-left: 190px;
 }
  
   .ayo1_col3 img{
